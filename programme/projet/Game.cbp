@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/sdl2 project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/sdl2 project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../SDL2/include/SDL2" />
+			<Add directory="../../SDL2_ttf-devel-2.0.14-mingw.tar/include/SDL2" />
+			<Add directory="../../SDL2_image-devel-2.0.1-mingw.tar/SDL2_image-devel-2.0.1-mingw/SDL2_image-2.0.1/32bits/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lOpenGL32 -lglu32" />
+			<Add option="-lSDL2_ttf -lSDL2_image" />
+			<Add library="SDL2_image" />
+			<Add directory="../../SDL2/lib" />
+			<Add directory="../../SDL2_ttf-devel-2.0.14-mingw.tar/lib" />
+			<Add directory="../../SDL2_image-devel-2.0.1-mingw.tar/SDL2_image-devel-2.0.1-mingw/SDL2_image-2.0.1/32bits/lib" />
+		</Linker>
+		<Unit filename="MasterMind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

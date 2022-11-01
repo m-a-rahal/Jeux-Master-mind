@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="MasterMind.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="58452" topLine="254" />
+		</Cursor>
+		<Folding>
+			<Collapse line="74" />
+			<Collapse line="79" />
+			<Collapse line="113" />
+			<Collapse line="124" />
+			<Collapse line="205" />
+			<Collapse line="206" />
+			<Collapse line="215" />
+			<Collapse line="220" />
+			<Collapse line="228" />
+			<Collapse line="237" />
+			<Collapse line="240" />
+			<Collapse line="246" />
+			<Collapse line="248" />
+			<Collapse line="254" />
+			<Collapse line="256" />
+			<Collapse line="270" />
+			<Collapse line="278" />
+			<Collapse line="282" />
+		</Folding>
+	</File>
+</CodeBlocks_layout_file>
